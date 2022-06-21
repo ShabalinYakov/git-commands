@@ -24,9 +24,14 @@
 - git branch - показать имя ветки
 - git checkout [branch_name] - переключить ветку
 - git branch [branch_name] - создать новую ветку
+- git checkout -b [branch_name] - создать новую ветку и переключиться на неё
 - git merge [branch_name] - объединить ветки
 - git branch -d [branch_name] - удалить ветку локально
 
 #### Остальное
 - git reset [file_name] - убрать файл из stage
 - git reset --hard - откатиться до предыдущего commit
+
+#### SSH
+- ssh-keygen -o - создать ключ SHH
+- ssh-add [path} - подключить созданный SSH
