@@ -1,6 +1,6 @@
 <h1 align="center">Command for GIT<h1>
 <div align="center">
-###1. git clone [address] - клонировать репозиторий
+### 1. git clone [address] - клонировать репозиторий
 <br>
 2. git init - инициализировать локальный репозиторий
 <br>
