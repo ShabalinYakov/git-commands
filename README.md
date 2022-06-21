@@ -1,3 +1,4 @@
+<h1 align="center">Command for GIT<h1>
 <div align="center">1. git clone [address] - клонировать репозиторий
 2. git init - инициализировать локальный репозиторий
 3. git remote -v - показать ссылку на репозиторий
