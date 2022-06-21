@@ -1,4 +1,4 @@
-1. git clone [address] - клонировать репозиторий
+<div align="center">1. git clone [address] - клонировать репозиторий
 2. git init - инициализировать локальный репозиторий
 3. git remote -v - показать ссылку на репозиторий
 4. git remote add [branch_name] [address] - установить подключение репозиторием
@@ -16,4 +16,4 @@
 16. git checkout [branch_name] - переключить ветку
 17. git pull [address] [branch_name] - вытянуть изменения из репозитория
 18. git branch -d [branch_name] - удалить ветку локально
-19. git merge [branch_name] - объединить ветки
+19. git merge [branch_name] - объединить ветки</div>
