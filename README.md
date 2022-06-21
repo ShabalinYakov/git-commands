@@ -1,5 +1,5 @@
-<h1 align="center">Command for GIT<h1>
-<div align="center" font-size="14">
+### :woman_technologist: About Me :Command for GIT
+
 1. git clone [address] - клонировать репозиторий
 <br>
 2. git init - инициализировать локальный репозиторий
@@ -37,4 +37,3 @@
 18. git branch -d [branch_name] - удалить ветку локально
 <br>
 19. git merge [branch_name] - объединить ветки
-</div>
