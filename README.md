@@ -6,6 +6,7 @@
 6. git add [file_name] - добавить выбранные файлы в stage
 7. git add . - добавить все файлы в stage
 8. git commit -m 'comments' - зафиксировать изменения локально
+<h1>Branch<h1/>
 9. git log / git log --oneline - подробная/краткая информация о коммитах
 10. git push [address] [branch_name] - отправить изменения в репозиторий
 11. git branch - показать имя ветки
@@ -16,3 +17,4 @@
 16. git checkout [branch_name] - переключить ветку
 17. git pull [address] [branch_name] - вытянуть изменения из репозитория
 18. git branch -d [branch_name] - удалить ветку локально
+19. git merge [branch_name] - объединить ветки
