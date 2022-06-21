@@ -14,3 +14,5 @@
 14. git reset --hard - убрать все произведенные изменения
 15. git branch [branch_name] - создать новую ветку
 16. git checkout [branch_name] - переключить ветку
+17. git pull [address] [branch_name] - вытянуть изменения из репозитория
+18. git branch -d [branch_name] - удалить ветку локально
