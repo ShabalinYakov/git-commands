@@ -1,6 +1,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=ShabalinYakov&style=flat-square&color=blue" alt=""/>
-## GIT commands
+
+# GIT commands
 
 #### Начало работы
 - git clone [address] - клонировать репозиторий
@@ -28,4 +29,4 @@
 
 #### Остальное
 - git reset [file_name] - убрать файл из stage
-- git reset --hard - убрать все произведенные изменения
+- git reset --hard - откатиться до предыдущего commit
