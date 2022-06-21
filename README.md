@@ -1,39 +1,29 @@
-### :woman_technologist: About Me :Command for GIT
+## GIT commands
 
-1. git clone [address] - клонировать репозиторий
-<br>
-2. git init - инициализировать локальный репозиторий
-<br>
-3. git remote -v - показать ссылку на репозиторий
-<br>
-4. git remote add [branch_name] [address] - установить подключение репозиторием
-<br>
-5. git status - проверить есть ли изменения
-<br>
-6. git add [file_name] - добавить выбранные файлы в stage
-<br>
-7. git add . - добавить все файлы в stage
-<br>
-8. git commit -m 'comments' - зафиксировать изменения локально
-<br>
-9. git log / git log --oneline - подробная/краткая информация о коммитах
-<br>
-10. git push [address] [branch_name] - отправить изменения в репозиторий
-<br>
-11. git branch - показать имя ветки
-<br>
-12. git reset [file_name] - убрать файл из stage
-<br>
-13. git diff / git diff [file_name]- показать какие изменения произошли
-<br>
-14. git reset --hard - убрать все произведенные изменения
-<br>
-15. git branch [branch_name] - создать новую ветку
-<br>
-16. git checkout [branch_name] - переключить ветку
-<br>
-17. git pull [address] [branch_name] - вытянуть изменения из репозитория
-<br>
-18. git branch -d [branch_name] - удалить ветку локально
-<br>
-19. git merge [branch_name] - объединить ветки
+#### Начало работы
+git clone [address] - клонировать репозиторий
+git init - инициализировать локальный репозиторий
+git remote add [branch_name] [address] - установить подключение с репозиторием
+git pull [address] [branch_name] - вытянуть изменения из репозитория
+
+#### Информация
+git status - проверить есть ли изменения
+git remote -v - показать ссылку на репозиторий
+git diff / git diff [file_name]- показать какие изменения произошли
+git log / git log --oneline - подробная/краткая информация o commits
+
+#### Фиксируем изменения
+git add [file_name] / git add . - добавить выбранные/все файлы в stage
+git commit -m 'comments' - зафиксировать изменения локально
+git push [address] [branch_name] - отправить изменения в репозиторий
+
+#### Работа с ветками
+git branch - показать имя ветки
+git checkout [branch_name] - переключить ветку
+git branch [branch_name] - создать новую ветку
+git merge [branch_name] - объединить ветки
+git branch -d [branch_name] - удалить ветку локально
+
+#### Остальное
+git reset [file_name] - убрать файл из stage
+git reset --hard - убрать все произведенные изменения
